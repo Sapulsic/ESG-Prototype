@@ -9,7 +9,7 @@ import FullMini from "../components/FullMini";
 
 function Home() {
 return (
-    <div>
+    <div className="homeBody">
         <Full backgroundImage="https://i.imgur.com/pzDvxIN.jpg">
             <FullText>ESG</FullText>
             <FullMini>This is a Test</FullMini>

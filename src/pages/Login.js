@@ -9,7 +9,7 @@ import FormWrapper from "../components/FormWrapper";
 // import Col from "../components/Col";
 
 function Login() {
-  return <div>
+  return <div className="loginBody">
     <Full>
         <FormWrapper>
             <div className="formBox">
