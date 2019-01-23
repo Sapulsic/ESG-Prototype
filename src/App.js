@@ -5,7 +5,7 @@ import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import Main from "./pages/Main";
 import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
               <Route exact path="/signup" component={Signup} />
               <Route exact path="/main" component={Main} />
             </Wrapper>
-            <Footer />
+            {/* <Footer /> */}
           </div>
         </Router>;
 }

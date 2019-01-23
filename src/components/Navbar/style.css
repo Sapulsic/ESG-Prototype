@@ -2,13 +2,18 @@
 
 .navbar {
   margin: 0;
-  padding: 0;
-  background-color: grey;
+  padding: 5px;
+  background-color: grey 0.0;
   font-family: 'Montserrat', sans-serif;
   list-style: none;
   display: flex;
   flex-flow: row wrap;
-  align-content: center;
+  align-items: center;
+}
+
+.navbar .navbar-brand {
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .navbar .navbar-list {
@@ -18,5 +23,6 @@
 }
 
 .navbar .navbar-list .nav-item {
-  margin: 5px;
+  margin:  0 15px;
+  text-decoration: none;
 }
