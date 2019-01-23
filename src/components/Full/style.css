@@ -1,0 +1,59 @@
+html {
+  background: url(https://i.imgur.com/pzDvxIN.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.full {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  align-content: space-around;
+  flex-flow: column wrap;
+  color: white;
+}
+
+/* Medium screens */
+@media all and (max-width: 800px) {
+  .full {
+    /* When on medium sized screens, we center it by evenly distributing empty space around items */
+    align-items: center;
+  }
+}
+
+/* Small screens */
+@media all and (max-width: 500px) {
+  .full {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+}
+
+/* .hero::after {
+  content: "";
+  display: block;
+  opacity: .4;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: black;
+}
+
+.hero * {
+  position: relative;
+  z-index: 2;
+}
+
+.hero h1, .hero h2 {
+  color: white;
+}
+
+.hero h1 {
+  font-size: 60px;
+  padding-top: 140px;
+  margin-top: 0;
+} */

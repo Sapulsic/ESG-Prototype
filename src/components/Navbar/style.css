@@ -9,11 +9,15 @@
   display: flex;
   flex-flow: row wrap;
   align-items: center;
+  justify-content: flex-end;
 }
 
 .navbar .navbar-brand {
   text-decoration: none;
   font-weight: bold;
+  font-size: 1.25em;
+  color: white;
+  /* margin: 0 50% 0 0; */
 }
 
 .navbar .navbar-list {
@@ -24,5 +28,31 @@
 
 .navbar .navbar-list .nav-item {
   margin:  0 15px;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.navbar .navbar-list .nav-item .nav-link {
   text-decoration: none;
+  color: white;
+}
+
+.navbar .navbar-list .nav-item .nav-link:hover {
+  color: aqua;
+}
+
+/* Medium screens */
+@media all and (max-width: 800px) {
+  .navbar {
+    /* When on medium sized screens, we center it by evenly distributing empty space around items */
+    justify-content: space-between;
+  }
+}
+
+/* Small screens */
+@media all and (max-width: 500px) {
+  .navbar {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
 }

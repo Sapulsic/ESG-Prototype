@@ -1,0 +1,20 @@
+.fullMini {
+  font-size: 1.5em;
+  font-weight: 600;
+  margin-left: -50%;
+}
+
+@media all and (max-width: 800px) {
+  .fullMini {
+    /* When on medium sized screens, we center it by evenly distributing empty space around items */
+    margin: 0 0 0 0;
+  }
+}
+
+/* Small screens */
+@media all and (max-width: 500px) {
+  .fullMini {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+}

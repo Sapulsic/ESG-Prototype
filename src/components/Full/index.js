@@ -3,10 +3,7 @@ import "./style.css";
 
 function Full(props) {
   return (
-    <div
-      className="full"
-      // style={{ background: `url(${props.backgroundImage}) no-repeat center center fixed` }}
-    >
+    <div className="full">
       {props.children}
     </div>
   );
