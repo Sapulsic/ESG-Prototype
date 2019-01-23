@@ -11,7 +11,7 @@ function Home() {
 return (
     <div>
         <Full backgroundImage="https://i.imgur.com/pzDvxIN.jpg">
-            <FullText>Evergarden</FullText>
+            <FullText>ESG</FullText>
             <FullMini>This is a Test</FullMini>
         </Full>
     </div>
