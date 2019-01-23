@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.navbar {
+  margin: 0;
+  padding: 0;
+  background-color: grey;
+  font-family: 'Montserrat', sans-serif;
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+}
+
+.navbar .navbar-list {
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.navbar .navbar-list .nav-item {
+  margin: 5px;
+}
