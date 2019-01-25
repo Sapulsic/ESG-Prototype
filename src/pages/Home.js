@@ -9,12 +9,20 @@ import FullMini from "../components/FullMini";
 
 function Home() {
 return (
-    <div className="homeBody">
-        <Full backgroundImage="https://i.imgur.com/pzDvxIN.jpg">
-            <FullText>ESG</FullText>
-            <FullMini>This is a Test</FullMini>
-        </Full>
-    </div>
+  <div className="homeBody">
+    <Full>
+      <FullText>
+        Get Started,
+        <br /> Send your love
+      </FullText>
+      <FullMini>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac leo
+        vehicula, congue dolor in, pretium enim. Vivamus nec ultrices lacus.
+        Morbi ex arcu, luctus et hendrerit ut, vestibulum sed erat. In finibus
+        est tristique scelerisque molestie.
+      </FullMini>
+    </Full>
+  </div>
 );
 }
 
