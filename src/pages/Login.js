@@ -11,22 +11,20 @@ import Navbar from "../components/Navbar";
 
 function Login() {
   return <div className="loginBody">
-    <Full>
         <Navbar />
-        <FormWrapper>
-            <div className="formBox">
-                <p className="formText">Username</p>
-                <input className="formInputs" type="text" label="Username"/>
-                <p className="formText">Password</p>
-                <input className="formInputs" type="password" />
-                <button className="formButton" type="submit">Log In</button>
-            </div>
-            <div className="formBelow">
-                <p>Forgot Username?</p>
-                <p>Forgot Password?</p>
-            </div>
-        </FormWrapper>
-    </Full>
+        <Full>
+            <FormWrapper>
+                <div className="formBox">
+                    <input className="formInputs" type="text" placeholder="Username"/>
+                    <input className="formInputs" type="password" placeholder="Password" />
+                    <button className="formButton" type="submit">Log In</button>
+                </div>
+                <div className="formBelow">
+                    <p>Forgot Username?</p>
+                    <p>Forgot Password?</p>
+                </div>
+            </FormWrapper>
+        </Full>
     </div>;
 }
 

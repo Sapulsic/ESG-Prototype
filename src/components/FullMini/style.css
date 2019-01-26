@@ -11,6 +11,7 @@
   .fullMini {
     /* When on medium sized screens, we center it by evenly distributing empty space around items */
     margin: 0 0 0 0;
+    width: 50%;
   }
 }
 

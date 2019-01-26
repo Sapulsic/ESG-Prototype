@@ -30,13 +30,13 @@ function Navbar() {
               Login
             </Link>
           </li>
-          <li className="nav-item">
-            {/* <Link
-              to="/search"
-              className={window.location.pathname === "/search" ? "nav-link active" : "nav-link"}
+          <li className="nav-item" id="signUpButton">
+            <Link
+              to="/signup"
+              className={window.location.pathname === "/signup" ? "nav-link active" : "nav-link"}
             >
-              Search
-            </Link> */}
+              Register
+            </Link>
           </li>
         </ul>
       </div>

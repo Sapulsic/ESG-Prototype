@@ -3,11 +3,10 @@
     flex-flow: column wrap;
     justify-content: center;
     align-content: center;
-    background-color: white;
+    /* background-color: white; */
     color: black;
-    margin: 5% auto;
+    margin: 5% 0 0 35%;
     padding: 7% 10%;
-    border-radius: 10px;
 }
 
 .formBox {
@@ -30,6 +29,8 @@
 .formInputs {
     margin: 2.5%;
     font-size: 1.5em;
+    border-radius: 5px;
+    padding: 2%;
 }
 
 .formText {
@@ -40,16 +41,17 @@
 
 .formButton {
     width: 100%;
-    padding: 2% 0;
+    padding: 3% 0;
     background-color: violet;
     border: none;
     transition: 0.4s;
     color: white;
+    border-radius: 5px;
     /* border: 1px solid black; */
 }
 
 .formButton:hover {
-    transition: 0.4s;
+    transition: 0.3s;
     background-color: aqua;
 }
 
