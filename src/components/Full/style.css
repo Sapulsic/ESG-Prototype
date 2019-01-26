@@ -1,9 +1,25 @@
-html {
+body, html {
+  margin: 0;
+  height: 100%;
+}
+
+body {
   background: url(https://i.imgur.com/pzDvxIN.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+div.loginBody {
+  background-color: white;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: 3;
+  position: relative;
+  height: 100vh;
 }
 
 .full {

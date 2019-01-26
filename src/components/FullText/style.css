@@ -5,6 +5,7 @@
   margin-top: 9%;
   padding: 0;
   line-height: 85%;
+  word-wrap: break-word;
   /* align-self: auto; */
 }
 

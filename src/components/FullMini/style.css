@@ -3,8 +3,8 @@
   font-weight: 400;
   margin-left: -40%;
   margin-top: 20px;
-  width: 19%;
-  
+  width: 21.4%;
+  word-wrap: break-word;
 }
 
 @media all and (max-width: 800px) {

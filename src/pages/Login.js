@@ -3,6 +3,7 @@ import Full from "../components/Full/";
 // import FullText from "../components/FullText/";
 // import FullMini from "../components/FullMini";
 import FormWrapper from "../components/FormWrapper";
+import Navbar from "../components/Navbar";
 // import Hero from "../components/Hero";
 // import Container from "../components/Container";
 // import Row from "../components/Row";
@@ -11,10 +12,11 @@ import FormWrapper from "../components/FormWrapper";
 function Login() {
   return <div className="loginBody">
     <Full>
+        <Navbar />
         <FormWrapper>
             <div className="formBox">
                 <p className="formText">Username</p>
-                <input className="formInputs" type="text" />
+                <input className="formInputs" type="text" label="Username"/>
                 <p className="formText">Password</p>
                 <input className="formInputs" type="password" />
                 <button className="formButton" type="submit">Log In</button>
