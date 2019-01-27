@@ -63,7 +63,26 @@
   color: aqua;
 }
 
+/* /////////// */
+/* SIGNUP PAGE */
+/* /////////// */
 
+.signUpBody .navbar .navbar-brand {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.25em;
+  color: black;
+  /* margin: 0 50% 0 0; */
+}
+
+.signUpBody .navbar .navbar-list .nav-item .nav-link {
+  text-decoration: none;
+  color: black;
+}
+
+.signUpBody .navbar .navbar-list .nav-item .nav-link:hover {
+  color: aqua;
+}
 
 
 /* Medium screens */

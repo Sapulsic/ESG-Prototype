@@ -3,10 +3,13 @@
     flex-flow: column wrap;
     justify-content: center;
     align-content: center;
-    /* background-color: white; */
+    align-items: center;
     color: black;
-    margin: 5% 0 0 35%;
-    padding: 7% 10%;
+    width: 40%;
+    /* bottom: 40%; */
+    position: absolute;
+    top: 30%;
+    left: 50%;
 }
 
 .formBox {
@@ -15,33 +18,22 @@
     align-items: center;
     justify-content: center;
     align-content: center;
-    /* padding: 50%; */
 }
 
-.formBelow {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-content: center;
-
-}
-
-.formInputs {
+.formInputs,
+.firstNameInput,
+.lastNameInput {
     margin: 2.5%;
     font-size: 1.5em;
     border-radius: 5px;
     padding: 2%;
-}
-
-.formText {
-    align-self: flex-start;
-    margin: -2.5px 0;
-    font-weight: 500;
+    border: 1px solid grey;
 }
 
 .formButton {
     width: 100%;
-    padding: 3% 0;
+    margin: 2.5%;
+    padding: 3% 2%;
     background-color: violet;
     border: none;
     transition: 0.4s;
@@ -50,15 +42,28 @@
     /* border: 1px solid black; */
 }
 
+.formBelow {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+    margin: 2.5%;
+    width: 100%;
+}
+
+.formBelow p {
+    margin: 0 2%;
+}
+
+/* .formText {
+    align-self: flex-start;
+    margin: -2.5px 0;
+    font-weight: 500;
+} */
+
+
 .formButton:hover {
     transition: 0.3s;
     background-color: aqua;
-}
-
-.formInputs[type|="password"] {
-    /* padding: 5%; */
-}
-
-.formInputs[type|="password"] {
-    /* padding: 5%; */
 }

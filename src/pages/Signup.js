@@ -10,16 +10,14 @@ import Navbar from "../components/Navbar";
 // import Col from "../components/Col";
 
 function Signup() {
-  return <div className="loginBody">
+  return <div className="signUpBody">
       <Full>
         <Navbar />
         <FormWrapper>
           <div className="formBox">
             <input className="firstNameInput" type="text" placeholder="First Name" />
             <input className="lastNameInput" type="test" placeholder="Last Name" />
-            <button className="formButton" type="submit">
-              Log In
-            </button>
+            <button className="formButton" type="submit">Continue</button>
           </div>
           <div className="formBelow">
             <p>Forgot Username?</p>
