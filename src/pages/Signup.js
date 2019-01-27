@@ -17,11 +17,10 @@ function Signup() {
           <div className="formBox">
             <input className="firstNameInput" type="text" placeholder="First Name" />
             <input className="lastNameInput" type="test" placeholder="Last Name" />
-            <button className="formButton" type="submit">Continue</button>
+            <button className="formContinue" type="submit">Continue</button>
           </div>
           <div className="formBelow">
-            <p>Forgot Username?</p>
-            <p>Forgot Password?</p>
+            <p>Already started? <a href="/login">Log in</a> to get started!</p>
           </div>
         </FormWrapper>
       </Full>

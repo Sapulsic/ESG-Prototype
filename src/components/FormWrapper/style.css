@@ -30,7 +30,8 @@
     border: 1px solid grey;
 }
 
-.formButton {
+.formButton,
+.formContinue {
     width: 100%;
     margin: 2.5%;
     padding: 3% 2%;
@@ -56,11 +57,10 @@
     margin: 0 2%;
 }
 
-/* .formText {
-    align-self: flex-start;
-    margin: -2.5px 0;
-    font-weight: 500;
-} */
+.formBelow a {
+    text-decoration: none;
+    color: yellowgreen;
+}
 
 
 .formButton:hover {
