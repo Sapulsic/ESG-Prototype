@@ -62,6 +62,7 @@ div.signUpBody .full {
   color: white;
 }
 
+
 .flowerSVG {
   position: fixed;
   top: 27.5%;
@@ -73,8 +74,24 @@ div.signUpBody .full {
   position: fixed;
   top: 5%;
   left: 50%;
-  transform: scale(1)
+  transform: scale(1);
+  -webkit-animation-name: calender; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 8s; /* Safari 4.0 - 8.0 */
+  animation-name: calender;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+
 }
+
+@keyframes calender {
+  0%   {left:50%; top:6%;}
+  25%  {left:50%; top:4.5%;}
+  50%  {left:50%; top:6%;}
+  75%  {left:50%; top:4.5%;}
+  100% {left:50%; top:6%;}
+}
+
+
 
 /* Medium screens */
 @media all and (max-width: 800px) {

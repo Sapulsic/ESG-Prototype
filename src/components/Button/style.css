@@ -1,5 +1,15 @@
 .buttonMain {
-    border-radius: 10px;
-    margin-left: -57.5%;
-    margin-top: 2%;
+    position: absolute;
+    top: 49%;
+    left: 19.5%;
+}
+
+
+.buttonMain button {
+    font-size: 1.5em;
+    color: white;
+    background-color: rgb(101, 206, 101);
+    border-radius: 50px;
+    padding: 15px 30px;
+    border:none;
 }
