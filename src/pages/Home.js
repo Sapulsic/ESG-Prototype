@@ -15,22 +15,23 @@ return (
     <Navbar />
     <Full>
       <div className="textBody">
-      <FullText>
-        Get Started,
-        <br /> send your love
-      </FullText>
-      <div className="calenderSVG">
+        <FullText>
+          Get Started,
+          <br /> send your love
+        </FullText>
+        <div className="calenderSVG">
           <img src="https://i.imgur.com/gvjdBwa.png" alt="It's a cool SVG" />
+        </div>
+        <FullMini>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac
+          leo vehicula, congue dolor in, pretium enim. Vivamus nec ultrices
+          lacus.
+        </FullMini>
+        <a href="/signup">
+          <Button>Get Started</Button>
+        </a>
       </div>
-      <FullMini>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac leo
-        vehicula, congue dolor in, pretium enim. Vivamus nec ultrices lacus.
-      </FullMini>
-      <Button>
-        Get Started
-      </Button>
-      </div>
-      <div className="homeImage"></div>
+      <div className="homeImage" />
     </Full>
   </div>
 );

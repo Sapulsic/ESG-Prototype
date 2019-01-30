@@ -18,7 +18,7 @@
   font-weight: bold;
   font-size: 2em;
   color: white;
-  margin: 0 62.5% 0 0;
+  margin: 0 61% 0 0;
 }
 
 
@@ -30,7 +30,7 @@
 
 .navbar .navbar-list .nav-item {
   margin:  0 15px;
-  font-size: 1.25em;
+  font-size: 1.45em;
   /* font-weight: bold; */
 }
 
@@ -49,8 +49,9 @@
 .loginBody .navbar .navbar-brand {
   text-decoration: none;
   font-weight: bold;
-  font-size: 1.25em;
+  font-size: 1.75em;
   color: black;
+  display: none;
   /* margin: 0 50% 0 0; */
 }
 
@@ -72,6 +73,7 @@
   font-weight: bold;
   font-size: 1.25em;
   color: black;
+  display: none;
   /* margin: 0 50% 0 0; */
 }
 
@@ -82,6 +84,13 @@
 
 .signUpBody .navbar .navbar-list .nav-item .nav-link:hover {
   color: aqua;
+}
+
+.signUpBody .navbar .navbar-list .nav-item {
+  margin:  0 15px;
+  font-size: 1.25em;
+  /* font-weight: bold; */
+  /* font-weight: bold; */
 }
 
 
