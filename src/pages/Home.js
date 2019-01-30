@@ -19,6 +19,9 @@ return (
         Get Started,
         <br /> send your love
       </FullText>
+      <div className="calenderSVG">
+          <img src="https://i.imgur.com/gvjdBwa.png" alt="It's a cool SVG" />
+      </div>
       <FullMini>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac leo
         vehicula, congue dolor in, pretium enim. Vivamus nec ultrices lacus.

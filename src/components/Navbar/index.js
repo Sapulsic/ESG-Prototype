@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <Link className="navbar-brand" to="/">
-        ESG Services
+        Evergarden
       </Link>
       <div>
         <ul className="navbar-list">

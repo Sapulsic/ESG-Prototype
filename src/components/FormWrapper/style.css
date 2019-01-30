@@ -5,41 +5,90 @@
     align-content: center;
     align-items: center;
     color: black;
-    width: 40%;
+    width: 30%;
     /* bottom: 40%; */
     position: absolute;
-    top: 30%;
-    left: 50%;
+    top: 20%;
+    left: 45%;
 }
 
-.formBox {
+.signUpHeader {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
     justify-content: center;
     align-content: center;
+    width: 100%;
+    /* font-size: 1.75em; */
+    color: rgb(83, 83, 196);
+}
+
+.signUpHeader h1, p {
+    margin: 0;
+}
+
+.signUpHeader h1 {
+    font-size: 4em;
+}
+
+.signUpHeader p {
+    font-size: 1.5em;
+}
+
+
+.loginFormBox {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    /* width: 100%; */
+}
+
+.signUpFormBox {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+}
+
+.formBoxTwo {
+    display: flex;
+    flex-flow: column wrap;
+    /* align-items: center; */
+    /* justify-content: center; */
+    align-content: center;
+    width: 100%;
 }
 
 .formInputs,
 .firstNameInput,
-.lastNameInput {
-    margin: 2.5%;
-    font-size: 1.5em;
+.lastNameInput,
+.emailInput,
+.signPassInput {
+    margin: 2.5% 0;
+    font-size: 1.25em;
     border-radius: 5px;
     padding: 2%;
-    border: 1px solid grey;
+    border: 1px solid rgb(224, 224, 224);
+}
+
+::placeholder {
+    color: rgb(197, 197, 197);
 }
 
 .formButton,
 .formContinue {
     width: 100%;
-    margin: 2.5%;
+    margin: 2.5% 0;
     padding: 3% 2%;
     background-color: violet;
     border: none;
     transition: 0.4s;
     color: white;
-    border-radius: 5px;
+    border-radius: 10px;
     /* border: 1px solid black; */
 }
 
@@ -63,7 +112,8 @@
 }
 
 
-.formButton:hover {
+.formButton:hover,
+.formContinue:hover {
     transition: 0.3s;
     background-color: aqua;
 }

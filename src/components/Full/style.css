@@ -62,6 +62,19 @@ div.signUpBody .full {
   color: white;
 }
 
+.flowerSVG {
+  position: fixed;
+  top: 27.5%;
+  left: -8%;
+  transform: scale(1.15)
+}
+
+.calenderSVG {
+  position: fixed;
+  top: 5%;
+  left: 50%;
+  transform: scale(1)
+}
 
 /* Medium screens */
 @media all and (max-width: 800px) {

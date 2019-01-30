@@ -13,8 +13,11 @@ function Login() {
   return <div className="loginBody">
         <Navbar />
         <Full>
+            <div className="flowerSVG">
+              <img src="https://i.imgur.com/y3yh4g7.png" alt="It's a flower" />
+            </div>
             <FormWrapper>
-                <div className="formBox">
+                <div className="loginFormBox">
                     <input className="formInputs" type="text" placeholder="Username"/>
                     <input className="formInputs" type="password" placeholder="Password" />
                     <button className="formButton" type="submit">Log In</button>
