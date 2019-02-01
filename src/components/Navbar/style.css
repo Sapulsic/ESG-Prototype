@@ -30,7 +30,7 @@
 
 .navbar .navbar-list .nav-item {
   margin:  0 15px;
-  font-size: 1.45em;
+  font-size: 1.25em;
   /* font-weight: bold; */
 }
 
@@ -62,6 +62,13 @@
 
 .loginBody .navbar .navbar-list .nav-item .nav-link:hover {
   color: aqua;
+}
+
+.loginBody .navbar .navbar-list .nav-item {
+  margin:  0 15px;
+  font-size: 1.25em;
+  /* font-weight: bold; */
+  /* font-weight: bold; */
 }
 
 /* /////////// */

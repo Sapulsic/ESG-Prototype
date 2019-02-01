@@ -8,11 +8,18 @@
     width: 30%;
     /* bottom: 40%; */
     position: absolute;
-    top: 20%;
-    left: 45%;
+    top: 15%;
+    left: 50%;
 }
 
-.signUpHeader {
+.testFlower{
+    max-height: 175px;
+    width: auto;
+    margin: 5% 0;
+}
+
+.signUpHeader,
+.loginHeader {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
@@ -39,10 +46,10 @@
 .loginFormBox {
     display: flex;
     flex-flow: column wrap;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center; */
+    /* justify-content: center; */
     align-content: center;
-    /* width: 100%; */
+    width: 100%;
 }
 
 .signUpFormBox {

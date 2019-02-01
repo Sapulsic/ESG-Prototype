@@ -17,6 +17,11 @@ function Login() {
               <img src="https://i.imgur.com/y3yh4g7.png" alt="It's a flower" />
             </div>
             <FormWrapper>
+              <img className="testFlower" src="https://i.imgur.com/y3yh4g7.png" alt="It's a flower" />
+
+                <div className="loginHeader">
+                  <p>Need a Mailchimp account? <a href="/signup">Create an account</a></p>
+                </div>
                 <div className="loginFormBox">
                     <input className="formInputs" type="text" placeholder="Username"/>
                     <input className="formInputs" type="password" placeholder="Password" />
