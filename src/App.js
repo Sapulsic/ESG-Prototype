@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
-import Main from "./pages/Main";
+import Dashboard from "./pages/Dashboard";
 import Navbar from "./components/Navbar";
 // import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
@@ -17,7 +17,7 @@ function App() {
               <Route exact path="/home" component={Home} />
               <Route exact path="/login" component={Login} />
               <Route exact path="/signup" component={Signup} />
-              <Route exact path="/main" component={Main} />
+              <Route exact path="/dashboard" component={Dashboard} />
             {/* </Wrapper> */}
             {/* <Footer /> */}
           </div>

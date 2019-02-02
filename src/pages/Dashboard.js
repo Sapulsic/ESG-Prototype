@@ -4,7 +4,7 @@ import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
 
-function Main() {
+function Dashboard() {
   return (
     <div>
       <Hero backgroundImage="https://i.imgur.com/qkdpN.jpg">
@@ -69,4 +69,4 @@ function Main() {
   );
 }
 
-export default Main;
+export default Dashboard;
