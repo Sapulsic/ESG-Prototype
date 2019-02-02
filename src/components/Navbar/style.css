@@ -113,6 +113,6 @@
 @media all and (max-width: 500px) {
   .navbar {
     /* On small screens, we are no longer using row direction but column */
-    flex-direction: column;
+    /* flex-direction: column; */
   }
 }
