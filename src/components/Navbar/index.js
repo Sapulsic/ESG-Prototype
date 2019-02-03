@@ -4,8 +4,8 @@ import "./style.css";
 
 function Navbar() {
   return (
-    <nav className="navbar">
-      <Link className="navbar-brand" to="/">
+    <nav className="navbarMain">
+      <Link className="navbarMain-brand" to="/">
         Evergarden
       </Link>
       <div>

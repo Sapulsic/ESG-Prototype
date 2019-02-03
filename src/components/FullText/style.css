@@ -14,6 +14,7 @@
   .fullText {
     /* When on medium sized screens, we center it by evenly distributing empty space around items */
     margin: 17.5% 0 0 0;
+    margin-top: 7%;
   }
 }
 
@@ -22,5 +23,6 @@
   .fullText {
     /* On small screens, we are no longer using row direction but column */
     flex-direction: column;
+    font-size: 3em;
   }
 }

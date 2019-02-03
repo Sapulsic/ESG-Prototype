@@ -4,14 +4,15 @@
   margin-left: -40%;
   margin-top: 20px;
   width: 21.4%;
+  align-self: center;
   word-wrap: break-word;
 }
 
 @media all and (max-width: 800px) {
   .fullMini {
     /* When on medium sized screens, we center it by evenly distributing empty space around items */
-    margin: 0 0 0 0;
-    width: 50%;
+    margin: 0;
+    width: 73.5%;
   }
 }
 
@@ -20,5 +21,6 @@
   .fullMini {
     /* On small screens, we are no longer using row direction but column */
     flex-direction: column;
+    font-size: 0.90em;
   }
 }

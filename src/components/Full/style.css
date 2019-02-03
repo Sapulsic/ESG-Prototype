@@ -70,6 +70,10 @@ div.signUpBody .full {
   transform: scale(1.15)
 }
 
+.homeBody .flowerSVG {
+  display: none;
+}
+
 .calenderSVG {
   position: fixed;
   top: 5%;
@@ -95,43 +99,71 @@ div.signUpBody .full {
 
 /* Medium screens */
 @media all and (max-width: 800px) {
+  body {
+    background: url(https://i.imgur.com/TfvYLth.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow-x: hidden;
+  }
+  .full .textBody{
+    /* margin: -10% 0; */
+    /* width: 80%; */
+    flex-wrap: column wrap;
+  }
+
   .full {
     /* When on medium sized screens, we center it by evenly distributing empty space around items */
     align-items: center;
   }
+
+  .full .textBody .fullText {
+    text-align: center;
+  }
+
+  .full .textBody .fullMini {
+    margin: 5% 0;
+  }
+
+  .calenderSVG {
+    display: none;
+  }
+
+  .full .textBody .buttonMain {
+    position: unset;
+    align-self: center;
+  }
+
+  .full .flowerSVG {
+  display: unset;
+  position: fixed;
+  top: 33%;
+  left: -33%;
+  transform: scale(0.65)
+}
+
 }
 
 /* Small screens */
 @media all and (max-width: 500px) {
+  body {
+    background: url(https://i.imgur.com/iS7VoUV.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
   .full {
     /* On small screens, we are no longer using row direction but column */
     flex-direction: column;
   }
-}
 
-/* .hero::after {
-  content: "";
-  display: block;
-  opacity: .4;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: black;
+  .full .flowerSVG {
+  display: unset;
+  position: fixed;
+  top: 26.5%;
+  left: -58%;
+  transform: scale(0.55)
+  }
 }
-
-.hero * {
-  position: relative;
-  z-index: 2;
-}
-
-.hero h1, .hero h2 {
-  color: white;
-}
-
-.hero h1 {
-  font-size: 60px;
-  padding-top: 140px;
-  margin-top: 0;
-} */
