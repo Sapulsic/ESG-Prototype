@@ -162,13 +162,32 @@
     left: 90%;
   }
 
-  div.signUpBody .navbar-brand, .navbar-toggler {
+  div.signUpBody .navbar-brand {
     color: black!important;
   }
 
-    div.loginBody .navbar-brand, .navbar-toggler {
-    color: black!important;
+  div.loginBody .navbar-brand {
+  color: black!important;
   }
+
+  .loginBody .navbar .navbar-nav {
+    background-color: white!important;
+  }
+
+  .signUpBody .navbar-nav {
+    background-color: white!important;
+  }
+
+  .loginBody #nav-active {
+    color: black!important;
+    font-weight: 650;
+  }
+
+  .signUpBody #nav-active {
+    color: black!important;
+    font-weight: 650;
+  }
+
 }
 
 /* Small screens */
