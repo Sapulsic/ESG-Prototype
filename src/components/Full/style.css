@@ -108,8 +108,10 @@ div.signUpBody .full {
     overflow-x: hidden;
   }
   .full .textBody{
-    /* margin: -10% 0; */
+    /* margin: 10% 0; */
     /* width: 80%; */
+    position: absolute;
+    top: 10%;
     flex-wrap: column wrap;
   }
 
@@ -141,6 +143,25 @@ div.signUpBody .full {
   top: 33%;
   left: -33%;
   transform: scale(0.65)
+}
+
+div.signUpBody {
+  background: none;
+  background-color: white;
+}
+
+div.loginBody {
+  background: none;
+  background-color: white;
+}
+
+div.signUpBody .full {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  align-content: space-around;
+  flex-flow: column wrap;
+  color: white;
 }
 
 }

@@ -116,15 +116,49 @@
     display: block!important;
     color: white!important;
     background-color: white 0!important;
+    padding: 0;
   }
 
   .navbar-brand {
     color: white!important;
+    padding: 3%;
+    font-weight: 600;
+    font-size: 1.5em;
+  }
+
+
+  .navbar-nav {
+    background-color: #8C60DB!important;
+    width: 100%!important;
+    margin: 0!important;
+    padding: 2% 0 2% 3%;
+  }
+
+  #nav-active {
+    color: white!important;
+    font-weight: 650;
+  }
+
+  .nav-link {
+    color: rgb(199, 199, 199)!important;
+    font-size: 1.05em;
+    font-weight: 600;
   }
 
   .navbar-toggler {
     /* font-weight: bold!important; */
     border: none!important;
+    position: fixed;
+    top: 3%;
+    left: 90%;
+  }
+
+  div.signUpBody .navbar-brand, .navbar-toggler {
+    color: black!important;
+  }
+
+    div.loginBody .navbar-brand, .navbar-toggler {
+    color: black!important;
   }
 }
 

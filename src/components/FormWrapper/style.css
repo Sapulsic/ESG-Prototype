@@ -124,3 +124,19 @@
     transition: 0.3s;
     background-color: aqua;
 }
+
+@media all and (max-width: 800px) {
+    .formWrapper {
+        top: 15%;
+        left: 18%;
+        width: 65%;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .formWrapper {
+        top: 12.5%;
+        left: 10%;
+        width: 80%;
+    }
+}
