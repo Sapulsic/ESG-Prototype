@@ -167,7 +167,7 @@ div.signUpBody .full {
 }
 
 /* Small screens */
-@media all and (max-width: 500px) {
+@media all and (max-width: 414px) {
   body {
     background: url(https://i.imgur.com/iS7VoUV.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -184,7 +184,7 @@ div.signUpBody .full {
   display: unset;
   position: fixed;
   top: 26.5%;
-  left: -58%;
+  left: -68%;
   transform: scale(0.55)
   }
 }

@@ -131,12 +131,33 @@
         left: 18%;
         width: 65%;
     }
+
+
+    .signUpHeader {
+        font-size: 1em;
+    }
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 414px) {
     .formWrapper {
         top: 12.5%;
         left: 10%;
         width: 80%;
+    }
+
+    .signUpHeader h1 {
+        font-size: 3.5em;
+    }
+    
+    .signUpHeader p {
+        font-size: 1.25em;
+    }
+
+    .firstNameInput {
+        width: 100%;
+    }
+
+    .lastNameInput {
+        width: 100%;
     }
 }
