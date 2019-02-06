@@ -1,11 +1,7 @@
 .fullMini {
   font-size: 1em;
   font-weight: 400;
-  margin-left: -40%;
-  margin-top: 20px;
-  width: 21.4%;
-  align-self: center;
-  word-wrap: break-word;
+  margin-bottom: 20px;
 }
 
 @media all and (max-width: 800px) {

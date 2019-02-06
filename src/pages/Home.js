@@ -38,9 +38,6 @@ return (
           The gift that
           <br /> keeps on giving
         </FullText>
-        <div className="calenderSVG">
-          <img src="https://i.imgur.com/gvjdBwa.png" alt="It's a cool SVG" />
-        </div>
         <FullMini>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac
           leo vehicula, congue dolor in, pretium enim. Vivamus nec ultrices
@@ -49,6 +46,9 @@ return (
         <a href="/signup">
           <Button>Get Started</Button>
         </a>
+      </div>
+      <div className="calenderSVG">
+        <img src="https://i.imgur.com/gvjdBwa.png" alt="It's a cool SVG" />
       </div>
       <div className="homeImage" />
       <div className="flowerSVG">

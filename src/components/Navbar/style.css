@@ -13,8 +13,9 @@
   list-style: none;
   display: flex;
   flex-flow: row wrap;
-  /* align-items: center; */
-  justify-content: flex-end;
+  align-items: baseline;
+  justify-content: space-between;
+  align-content: center;
 }
 
 .navbarMain .navbarMain-brand {
@@ -22,7 +23,8 @@
   font-weight: bold;
   font-size: 2em;
   color: white;
-  margin: 0 61% 0 0;
+  align-self: flex-start;
+  margin: 0 0 0 10%;
 }
 
 
@@ -49,6 +51,10 @@
 /* ////////// */
 /* LOGIN PAGE */
 /* ////////// */
+
+.loginBody .navbarMain {
+  justify-content: flex-end;
+}
 
 .loginBody .navbarMain .navbarMain-brand {
   text-decoration: none;
@@ -78,6 +84,10 @@
 /* /////////// */
 /* SIGNUP PAGE */
 /* /////////// */
+
+.signUpBody .navbarMain {
+  justify-content: flex-end;
+}
 
 .signUpBody .navbarMain .navbarMain-brand {
   text-decoration: none;
@@ -149,7 +159,7 @@
     /* font-weight: bold!important; */
     border: none!important;
     position: fixed;
-    top: 3%;
+    top: 2.5%;
     left: 90%;
   }
 
@@ -168,7 +178,7 @@
     /* flex-direction: column; */
   }
 
-   .navbar-toggler {
+  .navbar-toggler {
     /* font-weight: bold!important; */
     border: none!important;
     position: fixed;

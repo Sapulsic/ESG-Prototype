@@ -1,8 +1,7 @@
 .fullText {
   font-size: 3.75em;
   font-weight: bold;
-  margin-left: -40%;
-  margin-top: 9%;
+  margin-bottom: 4%;
   padding: 0;
   line-height: 85%;
   word-wrap: break-word;
@@ -15,6 +14,7 @@
     /* When on medium sized screens, we center it by evenly distributing empty space around items */
     margin: 17.5% 0 0 0;
     margin-top: 7%;
+    
   }
 }
 

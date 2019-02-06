@@ -13,11 +13,13 @@ body {
 
 .full .textBody {
   display: flex;
-  align-items: center;
+  flex-flow: column wrap;
+  /* align-items: center; */
   justify-content: flex-end;
   align-content: space-around;
-  flex-flow: column wrap;
   color: white;
+  width: 25%;
+  margin: 10% 0 0 20%;
 }
 
 div.loginBody {
@@ -65,9 +67,14 @@ div.signUpBody .full {
 
 .flowerSVG {
   position: fixed;
-  top: 27.5%;
-  left: -8%;
-  transform: scale(1.15)
+  top: 32.5%;
+  left: -9%;
+  /* transform: scale(1.15) */
+}
+
+.flowerSVG img {
+  height: auto;
+  width: 100%;
 }
 
 .homeBody .flowerSVG {
@@ -118,6 +125,11 @@ div.signUpBody .full {
     position: absolute;
     top: 10%;
     flex-wrap: column wrap;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 0;
   }
 
   .full {
