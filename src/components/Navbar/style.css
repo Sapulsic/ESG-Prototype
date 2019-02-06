@@ -116,9 +116,8 @@
 
 
 /* Medium screens */
-@media all and (max-width: 800px) {
+@media all and (max-width: 1024px) {
   .navbarMain {
-    /* When on medium sized screens, we center it by evenly distributing empty space around items */
     justify-content: space-between;
     display: none;
   }
@@ -173,7 +172,7 @@
 }
 
 /* Small screens */
-@media all and (max-width: 414px) {
+@media all and (min-width: 414px) and (max-width: 500px) {
   .navbarMain {
     /* flex-direction: column; */
   }

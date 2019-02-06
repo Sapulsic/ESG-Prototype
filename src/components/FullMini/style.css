@@ -4,7 +4,7 @@
   margin-bottom: 20px;
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 1024px) {
   .fullMini {
     /* When on medium sized screens, we center it by evenly distributing empty space around items */
     margin: 0;
@@ -13,7 +13,7 @@
 }
 
 /* Small screens */
-@media all and (max-width: 500px) {
+@media all and (min-width: 414px) and (max-width: 500px) {
   .fullMini {
     /* On small screens, we are no longer using row direction but column */
     flex-direction: column;
