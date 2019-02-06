@@ -78,13 +78,18 @@ div.signUpBody .full {
   position: fixed;
   top: 5%;
   left: 50%;
-  transform: scale(1);
+  /* transform: scale(1); */
   -webkit-animation-name: calender; /* Safari 4.0 - 8.0 */
   -webkit-animation-duration: 8s; /* Safari 4.0 - 8.0 */
   animation-name: calender;
   animation-duration: 8s;
   animation-iteration-count: infinite;
 
+}
+
+.calenderSVG img {
+  height: auto;
+  width: 100%;
 }
 
 @keyframes calender {
@@ -188,3 +193,4 @@ div.signUpBody .full {
   transform: scale(0.55)
   }
 }
+
