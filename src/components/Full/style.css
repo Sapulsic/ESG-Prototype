@@ -64,6 +64,27 @@ div.signUpBody .full {
   color: white;
 }
 
+div.dashBody {
+  /* background: url(https://i.imgur.com/MH4C7z5.png); */
+  background-color: white;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: 3;
+  /* position: relative; */
+  height: 100vh;
+}
+
+div.dashBody .full {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  align-content: space-around;
+  flex-flow: column wrap;
+  color: white;
+}
+
 
 .flowerSVG {
   position: fixed;

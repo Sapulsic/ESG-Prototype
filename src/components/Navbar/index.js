@@ -37,6 +37,12 @@ function Navbar() {
             >
               Register
             </Link>
+            <Link
+              to="/dashboard"
+              className={window.location.pathname === "/dashboard" ? "nav-link active" : "nav-link"}
+            >
+              My Account
+            </Link>
           </li>
         </ul>
       </div>
