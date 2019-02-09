@@ -116,9 +116,8 @@
 
 
 /* Medium screens */
-@media all and (max-width: 800px) {
+@media all and (max-width: 1024px) {
   .navbarMain {
-    /* When on medium sized screens, we center it by evenly distributing empty space around items */
     justify-content: space-between;
     display: none;
   }
@@ -163,17 +162,36 @@
     left: 90%;
   }
 
-  div.signUpBody .navbar-brand, .navbar-toggler {
+  div.signUpBody .navbar-brand {
     color: black!important;
   }
 
-    div.loginBody .navbar-brand, .navbar-toggler {
-    color: black!important;
+  div.loginBody .navbar-brand {
+  color: black!important;
   }
+
+  .loginBody .navbar .navbar-nav {
+    background-color: white!important;
+  }
+
+  .signUpBody .navbar-nav {
+    background-color: white!important;
+  }
+
+  .loginBody #nav-active {
+    color: black!important;
+    font-weight: 650;
+  }
+
+  .signUpBody #nav-active {
+    color: black!important;
+    font-weight: 650;
+  }
+
 }
 
 /* Small screens */
-@media all and (max-width: 414px) {
+@media all and (min-width: 414px) and (max-width: 500px) {
   .navbarMain {
     /* flex-direction: column; */
   }
